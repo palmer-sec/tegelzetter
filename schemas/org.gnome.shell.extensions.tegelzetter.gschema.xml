@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.palmer-tiler"
-          path="/org/gnome/shell/extensions/palmer-tiler/">
+  <schema id="org.gnome.shell.extensions.tegelzetter"
+          path="/org/gnome/shell/extensions/tegelzetter/">
 
     <!-- 12 tile bindings -->
     <key name="tile-q" type="as"><default>["&lt;Control&gt;&lt;Super&gt;q"]</default></key>
