@@ -1,0 +1,8 @@
+{
+  "uuid": "tegelzetter@palmersec.com",
+  "name": "Tegelzetter",
+  "description": "Tiling + resize-mode with a restricted D-Bus API.",
+  "shell-version": ["49"],
+  "version": 1
+}
+
