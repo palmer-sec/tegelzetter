@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.palmer-tiler"
+          path="/org/gnome/shell/extensions/palmer-tiler/">
+
+    <!-- 12 tile bindings -->
+    <key name="tile-q" type="as"><default>["&lt;Control&gt;&lt;Super&gt;q"]</default></key>
+    <key name="tile-w" type="as"><default>["&lt;Control&gt;&lt;Super&gt;w"]</default></key>
+    <key name="tile-e" type="as"><default>["&lt;Control&gt;&lt;Super&gt;e"]</default></key>
+    <key name="tile-r" type="as"><default>["&lt;Control&gt;&lt;Super&gt;r"]</default></key>
+
+    <key name="tile-a" type="as"><default>["&lt;Control&gt;&lt;Super&gt;a"]</default></key>
+    <key name="tile-s" type="as"><default>["&lt;Control&gt;&lt;Super&gt;s"]</default></key>
+    <key name="tile-d" type="as"><default>["&lt;Control&gt;&lt;Super&gt;d"]</default></key>
+    <key name="tile-f" type="as"><default>["&lt;Control&gt;&lt;Super&gt;f"]</default></key>
+
+    <key name="tile-h" type="as"><default>["&lt;Control&gt;&lt;Super&gt;h"]</default></key>
+    <key name="tile-j" type="as"><default>["&lt;Control&gt;&lt;Super&gt;j"]</default></key>
+    <key name="tile-k" type="as"><default>["&lt;Control&gt;&lt;Super&gt;k"]</default></key>
+    <key name="tile-l" type="as"><default>["&lt;Control&gt;&lt;Super&gt;l"]</default></key>
+
+    <!-- Toggle resize mode (example: Ctrl+Super+Return) -->
+    <key name="toggle-mode" type="as"><default>["&lt;Control&gt;&lt;Super&gt;Return"]</default></key>
+
+  </schema>
+</schemalist>
+
