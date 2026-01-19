@@ -7,7 +7,7 @@ import { tileFocused, nudgeFocused, resizeFocused } from './tiling.js';
 
 const IFACE_XML = `
 <node>
-  <interface name="org.palmersec.WindowTiler1">
+  <interface name="org.palmersec.Tegelzetter1">
     <method name="TileFocused">
       <arg type="s" name="key" direction="in"/>
       <arg type="b" name="ok" direction="out"/>
@@ -28,7 +28,7 @@ const IFACE_XML = `
 </node>
 `;
 
-export class WindowTilerService {
+export class TegelzetterService {
   constructor() {
     this._impl = Gio.DBusExportedObject.wrapJSObject(IFACE_XML, this);
     this._nameId = 0;
@@ -40,14 +40,14 @@ export class WindowTilerService {
     // Own a well-named bus name for your service
     this._nameId = Gio.bus_own_name_on_connection(
       conn,
-      'org.palmersec.WindowTiler1',
+      'org.palmersec.Tegelzetter1',
       Gio.BusNameOwnerFlags.NONE,
       null,
       null
     );
 
     // Export object at a fixed path
-    this._impl.export(conn, '/org/palmersec/WindowTiler1');
+    this._impl.export(conn, '/org/palmersec/Tegelzetter1');
   }
 
   disable() {
