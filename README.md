@@ -21,7 +21,7 @@ make reload
 The goal of this project is to create an environment that can offer an efficient workflow.
 With only a few key bindings, windows can be tiled quickly into configurations like the example below:
                                                                                 
-![Fig. 3: Example screen arrangement](/images/tegelzetter_example.png)
+![Fig. 3: Example screen arrangement](images/tegelzetter_example.png)
 
 ### Key Bindings
 
@@ -33,18 +33,18 @@ A, S, D, and F are mapped to the bottom four positions and H, J, K, and L are ma
 
 | Binding | Result |
 | :---    | :---   |
-| `[ctrl]+[super]+q` | ![Q](/images/tegelzetter_q.png) |
-| `[ctrl]+[super]+w` | ![W](/images/tegelzetter_w.png) |
-| `[ctrl]+[super]+e` | ![E](/images/tegelzetter_e.png) |
-| `[ctrl]+[super]+r` | ![R](/images/tegelzetter_r.png) |
-| `[ctrl]+[super]+a` | ![A](/images/tegelzetter_a.png) |
-| `[ctrl]+[super]+s` | ![S](/images/tegelzetter_s.png) |
-| `[ctrl]+[super]+d` | ![D](/images/tegelzetter_d.png) |
-| `[ctrl]+[super]+f` | ![F](/images/tegelzetter_f.png) |
-| `[ctrl]+[super]+h` | ![H](/images/tegelzetter_h.png) |
-| `[ctrl]+[super]+j` | ![J](/images/tegelzetter_j.png) |
-| `[ctrl]+[super]+k` | ![K](/images/tegelzetter_k.png) |
-| `[ctrl]+[super]+l` | ![L](/images/tegelzetter_l.png) |
+| `[ctrl]+[super]+q` | ![Q](images/tegelzetter_q.png) |
+| `[ctrl]+[super]+w` | ![W](images/tegelzetter_w.png) |
+| `[ctrl]+[super]+e` | ![E](images/tegelzetter_e.png) |
+| `[ctrl]+[super]+r` | ![R](images/tegelzetter_r.png) |
+| `[ctrl]+[super]+a` | ![A](images/tegelzetter_a.png) |
+| `[ctrl]+[super]+s` | ![S](images/tegelzetter_s.png) |
+| `[ctrl]+[super]+d` | ![D](images/tegelzetter_d.png) |
+| `[ctrl]+[super]+f` | ![F](images/tegelzetter_f.png) |
+| `[ctrl]+[super]+h` | ![H](images/tegelzetter_h.png) |
+| `[ctrl]+[super]+j` | ![J](images/tegelzetter_j.png) |
+| `[ctrl]+[super]+k` | ![K](images/tegelzetter_k.png) |
+| `[ctrl]+[super]+l` | ![L](images/tegelzetter_l.png) |
 Fig 4: Key binding table
 
 ## Future Improvements & Additions
