@@ -18,7 +18,8 @@ make reload
 
 ## Usage
 
-The goal of this project is to create an environment that can offer an efficient workflow.
+The goal of this project is to create an environment that can offer an efficient workflow by providing 
+key bindings that will be useful on ultrawide monitors.
 With only a few key bindings, windows can be tiled quickly into configurations like the example below:
                                                                                 
 ![Fig. 3: Example screen arrangement](images/tegelzetter_example.png)
