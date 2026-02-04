@@ -1,6 +1,11 @@
 # tegelzetter
 #### Hotkey-Based Window Tiling for GNOME with Wayland
 
+Tegelzetter is a window tiling extension to make tiling your windows on GNOME easy. It
+uses a series of keybindings to tile windows into pre-computed rectangle sizes and locations
+on your screen. This extension has *only* been tested on Fedora 43 with GNOME Shell 49.3. There
+are no guarantees this will work on earlier versions. 
+
 ## Installation
 
 #### Clone this repository
