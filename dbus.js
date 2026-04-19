@@ -53,7 +53,7 @@ export class TegelzetterService {
   disable() {
     try { this._impl.unexport(); } catch (_) {}
     if (this._nameId) {
-      Gio.bus_unown_name(this._nameId);
+      try { Gio.bus_unown_name(this._nameId); } catch (_) {}
       this._nameId = 0;
     }
   }
