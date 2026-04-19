@@ -37,7 +37,7 @@ function getWorkAreaForWindow(win) {
   return Main.layoutManager.getWorkAreaForMonitor(monitor);
 }
 
-// Map your 12 layouts to grid positions
+// Map 12 layouts to grid positions
 export function computeTileRect(workArea, key) {
   const WA = workArea;
   const quarter = Math.floor(WA.width / 4);
@@ -82,8 +82,12 @@ export function tileFocused(key) {
 
   // Mutter API: move_resize_frame(user_op, x, y, w, h)
   // This operates on the outer frame (what you want for tiling). :contentReference[oaicite:3]{index=3}
-  win.move_resize_frame(true, rect.x, rect.y, rect.width, rect.height);
-  return true;
+  try {
+    win.move_resize_frame(true, rect.x, rect.y, rect.width, rect.height);
+    return true;
+  } catch (_) {
+    return false;
+  }
 }
 
 export function nudgeFocused(dx, dy) {
@@ -91,8 +95,12 @@ export function nudgeFocused(dx, dy) {
   if (!win) return false;
 
   const r = win.get_frame_rect();
-  win.move_resize_frame(true, r.x + dx, r.y + dy, r.width, r.height);
-  return true;
+  try {
+    win.move_resize_frame(true, r.x + dx, r.y + dy, r.width, r.height);
+    return true;
+  } catch (_) {
+    return false;
+  }
 }
 
 export function resizeFocused(dw, dh) {
@@ -100,7 +108,11 @@ export function resizeFocused(dw, dh) {
   if (!win) return false;
 
   const r = win.get_frame_rect();
-  win.move_resize_frame(true, r.x, r.y, Math.max(50, r.width + dw), Math.max(50, r.height + dh));
-  return true;
+  try {
+    win.move_resize_frame(true, r.x, r.y, Math.max(50, r.width + dw), Math.max(50, r.height + dh));
+    return true;
+  } catch (_) {
+    return false;
+  }
 }
 
